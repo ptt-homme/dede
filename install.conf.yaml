@@ -13,8 +13,6 @@
 # install brew if not already installed
 # source zshrc
 # update git submodules
-#- shell:
-#  - [git submodule update --init --recursive, Installing git submodules]
 
 # ~/.zshrc, Source zshrc]
 
@@ -35,6 +33,16 @@
     ~/.oh-my-zsh/custom/themes/powerlevel10k:
       force: true
       path: powerlevel10k
+
+- shell:
+  -
+    command: command -v brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    description: Installing Brew
+    quiet: true
+  - 
+    command: source ~/.zshrc
+    description: Sourcing zshrc file
+    quiet: true
 
 - shell:
   - [brew bundle, Installing Brew default bundles]
