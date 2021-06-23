@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "editor.fontLigatures": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
+}
