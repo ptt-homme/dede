@@ -30,5 +30,7 @@
       force: true
       path: powerlevel10k
 
+- shell:
+  - [brew bundle, Installing Brew default bundles]
 #- brewfile:
 #  - ~/Brewfile
